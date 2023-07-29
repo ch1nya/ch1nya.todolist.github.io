@@ -1,0 +1,47 @@
+.ToDo {
+    min-width: auto;
+    max-width: 25rem;
+    background-color: rgb(12, 38, 16);
+    border-radius: 5px;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+    /* max-height: fit-content; */
+    align-items: center ;
+    color: aliceblue;
+    border: 1px solid rgb(13, 14, 13);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+
+
+}
+.ToDo h1 {
+    padding-top: 0px;
+}
+.ToDo p {
+    padding-left: 0.7rem;
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 0.95rem;
+    font-size: .88rem;
+    cursor: pointer;
+    
+}
+
+.icon {
+    padding: 7px;
+}
+
+.iconRight {
+    padding: 7px;
+    margin-right: .5rem;
+
+}
+
+.completed {
+    color: #7b7b7c;
+    text-decoration: line-through;
+    font-style: italic;
+    transition-duration: 1s;
+
+  }
